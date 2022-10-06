@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    
+    <!--links de las tipografias-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Questrial&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!--link de mi css-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contactanos</title>
+</head>
+<body>
+    <!--cabecera del html-->
+    <header id="cabecera"class="header-contactanos">
+        
+        <!--menu-->
+
+        <nav class="navbar navbar-expand-lg color-nav">
+            <div class="container-fluid">
+                <h1 class="h-uno-contactanos">Contactanos</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="fauna.html">Fauna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="museo.html">Museo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactanos.html">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!--contenido principal con formulario-->
+    <main class="main-contactanos">
+        <section class="section-uno-contactanos">
+            <!--formulario de opiniones-->
+            <form >
+                <fieldset>
+                    <legend>Completa con tu informacion</legend>
+                    <div>
+                    <label for="nombre">Ingresa tu nombre</label>
+                    <input type="text" id="nombre" placeholder="Nombre y Apellido">
+                    </div>
+                    <div>
+                        <label for="mail">Ingresa tu email</label>
+                        <input type="email" id="mail" placeholder="ejemplo@email.com">
+                    </div>
+                    <div>
+                        <label for="areabox" text-align="start">Dejanos tu consulta</label>
+                        
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Deja tus comentarios"></textarea>
+                    </div>
+                    <div>
+                        <input class="boton" type="submit">
+                        <input class="boton" type="reset">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <div class="contenedor-uno-contactanos">
+            <img class="img-contactanos" src="../img/fondo-uno.jpg" alt="ballenas">
+        </div>
+        
+    </main>
+    <!--pie de pagina-->
+    <footer class="footer-contactanos">
+        <h3>todos los derechos reservados</h3>
+        <a href="#cabecera">Ir al Inicio</a>
+        <a href="https://www.facebook.com/vak.vaquita/" target="_blank"><img src="../img/logo-face.png" alt=""></a>
+        <a href="https://www.instagram.com/vaccarodrigo/" target="_blank"><img src="../img/logo-insta.png" alt=""></a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,268 @@
+
+
+
+/* estilos del index*/
+body {
+    background-color: #7cd7cf;
+
+}
+
+.color-nav {
+    background-color: #ffeacc;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffeacc;
+    padding: 2px;
+    margin: 2px;
+}
+
+main {
+    padding: 2px;
+    margin: 2px;
+}
+
+main h2,
+p {
+    text-align: center;
+}
+.reservas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reservas h2,
+ul {
+    text-align: center;
+    list-style: none;
+}
+img{
+    padding: 3px;
+    margin: 3px;
+}
+
+
+
+
+
+/* estilos de contactanos*/
+body {
+    background-color: #7cd7cf;
+
+}
+
+.color-nav {
+    background-color: #ffeacc;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffeacc;
+    padding: 2px;
+    margin: 2px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main section form fieldset legend,label{
+    text-align: center;
+    padding: 3px;
+    margin: 3px;
+}
+
+
+main section fieldset div .boton{
+    background-color: #451a3e;
+    padding: 0.6rem;
+    margin-top: 1rem;
+    box-shadow: 2px 2px 2px black;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.15rem;
+}
+footer{
+    padding: 3px;
+    text-align: center;
+    background-color: #ffeacc;
+    padding: 2px;
+    margin: 2px;
+}
+
+/*estilos de historia*/
+body {
+    background-color: #7cd7cf;
+
+}
+
+.color-nav {
+    background-color: #ffeacc;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main div h2, p, div h3,p{
+    text-align: center;
+}
+main div{
+    text-align: center;
+}
+main div img{
+    width: 60%;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffeacc;
+    padding: 2px;
+    margin: 2px;
+}
+
+/*estilos museo*/
+
+body {
+    background-color: #7cd7cf;
+
+}
+
+.color-nav {
+    background-color: #ffeacc;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffeacc;
+    padding: 2px;
+    margin: 2px;
+}
+main div h2{
+    text-align: center;
+}
+main nav ul {
+    list-style: none;
+    text-align: center;
+}
+main div h3{
+    text-align: center;
+}
+main div iframe{
+    width: 20rem;
+    height: 20rem;
+
+}
+
+/* estilos de fauna*/
+body {
+    background-color: #7cd7cf;
+
+}
+
+.color-nav {
+    background-color: #ffeacc;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffeacc;
+    padding: 2px;
+    margin: 2px;
+}
+main div h2, p{
+    text-align: center;
+}
+
+main div h3{
+    text-align: center;
+}
+section{
+    padding: px;
+    margin: 3px;
+}
+
+
+
+/*nuevos estilos*/
+@media screen and (min-width:600px) {
+    .navbar-collapse {
+        Flex-grow: 0;
+        font-weight: bold;
+    }
+
+    header nav div div ul li:hover {
+        background-color: #51B0DF;
+        transform: scale(0.9);
+        box-shadow: 1px 1px 3px black;
+    }
+    /*index*/
+    .main-uno {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns:repeat(2,2fr) ;
+        grid-template-rows:0.5fr 1fr 0.5fr 0.5fr;
+        grid-template-areas: 
+        "p-uno inicio"
+        "p-dos inicio"
+        "reservas inicio-dos";
+        justify-content: center;
+        justify-items: center;
+
+    }
+    .main-uno .p-uno{
+        grid-area: p-uno;
+    }
+    .main-uno .inicio{
+        grid-area: inicio;
+        width: 80%;
+        filter: drop-shadow(1px 1px 3px black);
+    }
+    .main-uno .inicio-dos{
+        grid-area: inicio-dos;
+        width: 80%;
+        filter: drop-shadow(1px 1px 3px black);
+    }
+    .main-uno .p-dos{
+        grid-area:p-dos;
+    }
+    .main-uno .reservas{
+        grid-area: reservas;
+    }
+
+    /*historia*/
+    .main-dos {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns:repeat(2,2fr) ;
+        grid-template-rows:0.5fr 1fr 0.5fr 0.5fr;
+        grid-template-areas: 
+        "intro intro"
+        "hombre hombrev"
+        "carlos ameghino";
+        justify-content: center;
+        justify-items: center;
+
+    }
+    .main-dos .intro{
+        grid-area: intro;
+    }
+    .main-dos .hombre-v{
+        grid-area: hombre-v;
+        width: 80%;
+        filter: drop-shadow(1px 1px 3px black);
+    }
+    .main-dos .ameghino{
+        grid-area: ameghino;
+        width: 80%;
+        filter: drop-shadow(1px 1px 3px black);
+    }
+    .main-uno .carlos{
+        grid-area:carlos;
+    }
+    .main-uno .reservas{
+        grid-area: reservas;
+    }
+}
