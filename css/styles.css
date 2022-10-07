@@ -3,7 +3,7 @@
   margin: 0px;
   box-sizing: border-box; }
 
-.main-index, .contenedor-logo-index, .main-contactanos .section-uno-contactanos, .main-historia, .contenedor-logo-historia, .main-museo, .contenedor-logo-museo, .main-fauna, .contenedor-logo-fauna {
+.main-index, .contenedor-logo-index, .main-contactanos .section-uno-contactanos, .contenedor-logo-contactanos, .main-historia, .contenedor-logo-historia, .main-museo, .contenedor-logo-museo, .main-fauna, .contenedor-logo-fauna {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,6 +89,11 @@
     padding: 3px;
     margin: 3px;
     width: 80%; }
+
+.contenedor-logo-contactanos .fixed-contactanos {
+  position: fixed;
+  right: 0;
+  bottom: 0%; }
 
 .footer-contactanos {
   text-align: center;
