@@ -1,0 +1,82 @@
+.body-historia{
+    background-color: $color-principal;
+}
+.header-historia{
+    background-color: $color-headers;
+    margin: 3px;
+    padding: 3px;
+    font-size: 20px;
+    .color-nav{
+        background-color: $color-menu;
+
+    }
+    .h-uno-historia{
+        font-family:'Permanent Marker', cursive;
+    }
+    nav {
+        div {
+            div {
+                ul {
+                    li {
+                        &:hover {
+                            background-color: #51B0DF;
+                            transform: scale(0.9);
+                            box-shadow: 1px 1px 3px black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.main-historia{
+    @extend %flex;
+    .contenedor-uno-historia{
+        padding: 3px;
+        margin: 3px;
+        text-align: center;
+
+    }
+    .contenedor-dos-historia{
+        padding: 3px;
+        margin: 3px;
+        text-align: center;
+        
+    }
+    .contenedor-tres-historia{
+        padding: 3px;
+        margin: 3px;
+        text-align: center;
+        
+    }
+    .contenedor-img-uno{
+        text-align: center;
+        .hombre-v{
+            text-align: center;
+            width: 80%;
+            padding: 2px;
+            margin: 2px;
+        }
+    }
+    .contenedor-img-dos{
+        text-align: center;
+        .ameghino{
+            text-align: center;
+            width: 80%;
+            padding: 2px;
+            margin: 2px;
+        }
+    }
+}
+.contenedor-logo-historia{
+    @extend %flex;
+    .fixed-historia{
+        position: fixed;
+        right: 0;
+        bottom: 0%;
+    }
+    
+}
+.footer-historia{
+    @include footer;
+}

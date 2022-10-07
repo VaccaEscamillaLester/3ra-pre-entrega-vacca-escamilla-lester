@@ -1,0 +1,63 @@
+.body-fauna{
+    background-color:$color-principal;
+}
+.header-fauna{
+    background-color: $color-headers;
+    margin: 3px;
+    padding: 3px;
+    font-size: 20px;
+    .color-nav{
+        background-color: $color-menu;
+
+    }
+    .h-uno-fauna{
+        font-family:'Permanent Marker', cursive;
+    }
+    nav {
+        div {
+            div {
+                ul {
+                    li {
+                        &:hover {
+                            background-color: #51B0DF;
+                            transform: scale(0.9);
+                            box-shadow: 1px 1px 3px black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.main-fauna{
+    @extend %flex;
+
+    .contenedor-uno-fauna{
+        padding: 3px;
+        margin: 3px;
+        text-align: center;
+    }
+
+    .contenedor-dos-fauna{
+        padding: 3px;
+        margin: 3px;
+        text-align: center;
+    }
+    .contenedor-tres-fauna{
+        padding: 3px;
+        margin: 3px;
+        text-align: center;
+    }
+}
+.contenedor-logo-fauna{
+    @extend %flex;
+    .fixed-fauna{
+        position: fixed;
+        right: 0;
+        bottom: 0%;
+    }
+    
+}
+.footer-fauna{
+    @include footer;
+}

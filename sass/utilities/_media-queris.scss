@@ -1,0 +1,157 @@
+@media screen and (min-width:600px) {
+    .navbar-collapse {
+        Flex-grow: 0;
+        font-weight: bold;
+    }
+
+    /*index*/
+    .main-index {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: 0.5fr 1fr 0.5 fr 0.5fr;
+        grid-template-areas:
+            "contenedor-uno-index contenedor-dos-index"
+            "contenedor-reservas-index contenedor-tres-index";
+        justify-content: center;
+        justify-items: center;
+
+        .contenedor-uno-index {
+            grid-area: contenedor-uno-index;
+        }
+
+        .contenedor-dos-index {
+            grid-area: contenedor-dos-index;
+            width: 80%;
+            filter: drop-shadow(1px 1px 3pc black);
+        }
+
+        .contenedor-reservas-index {
+            grid-area: contenedor-reservas-index;
+        }
+
+        .contenedor-tres-index {
+            grid-area: contenedor-tres-index;
+            width: -1%;
+            filter: drop-shadow(1px 1px 3pc black);
+
+            .img-dos-index {
+                width: 60%;
+
+            }
+        }
+
+
+
+    }
+
+    /*historia*/
+    .main-historia {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+        grid-template-areas:
+            "contenedor-uno-historia contenedor-uno-historia"
+            "contenedor-dos-historia contenedor-img-uno"
+            "contenedor-tres-historia contenedor-img-dos";
+        justify-content: center;
+        justify-items: center;
+
+        .contenedor-uno-historia {
+            grid-area: contenedor-uno-historia;
+            width: 70%;
+            height: 100px;
+
+        }
+
+        .contenedor-dos-historia {
+            grid-area: contenedor-dos-historia;
+
+        }
+
+        .contenedor-img-uno {
+            grid-area: contenedor-img-uno;
+            width: 80%;
+            filter: drop-shadow(1px 1px 3px black);
+
+        }
+
+        .contenedor-tres-historia {
+            grid-area: contenedor-tres-historia;
+        }
+
+        .contenedor-img-dos {
+            grid-area: contenedor-img-dos;
+            width: 80%;
+            filter: drop-shadow(1px 1px 3px black);
+        }
+
+
+    }
+
+    /*museo*/
+    .main-museo{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+        grid-template-areas:
+            "contenedor-uno-museo contenedor-dos-museo"
+            ;
+        justify-content: center;
+        justify-items: center;
+
+        .contenedor-uno-museo{
+            grid-area: contenedor-uno-museo;
+            text-align: center;
+        }
+        .contenedor-dos-museo{
+            grid-area: contenedor-dos-museo;
+
+        }
+
+    }
+    
+    /*fauna*/
+    .main-fauna{
+        .contenedor-uno-fauna{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 3px;
+            margin: 8px;
+            width: 800px;
+            height: 150px;
+        }
+        
+        
+        
+        .contenedor-dos-fauna{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+            padding: 8px;
+            margin: 8px;
+            width: 800px;
+            height: 150px;
+        }
+        .contenedor-tres-fauna{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 8px;
+            margin: 8px;
+            width: 800px;
+            height: 150px;
+        }
+    }
+
+}

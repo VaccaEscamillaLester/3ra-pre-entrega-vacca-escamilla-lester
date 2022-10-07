@@ -1,0 +1,64 @@
+.body-museo{
+    background-color: $color-principal;
+}
+.header-museo{
+    background-color: $color-headers;
+    margin: 3px;
+    padding: 3px;
+    font-size: 20px;
+    .color-nav{
+        background-color: $color-menu;
+
+    }
+    .h-uno-museo{
+        font-family:'Permanent Marker', cursive;
+        font-size: 25px;
+    }
+    nav {
+        div {
+            div {
+                ul {
+                    li {
+                        &:hover {
+                            background-color: #51B0DF;
+                            transform: scale(0.9);
+                            box-shadow: 1px 1px 3px black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.main-museo{
+    @extend %flex;
+    .contenedor-uno-museo{
+        text-align: center;
+        nav{
+            ul{
+                list-style: none;
+                text-align: center;
+            }
+        }
+    }
+    .contenedor-dos-museo{
+        text-align: center;
+        iframe{
+            width: 20rem;
+            height: 20rem;
+        }
+        
+    }
+}
+.contenedor-logo-museo{
+    @extend %flex;
+    .fixed-museo{
+        position: fixed;
+        right: 0;
+        bottom: 0%;
+    }
+    
+}
+.footer-museo{
+    @include footer;
+}
