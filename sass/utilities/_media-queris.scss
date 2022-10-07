@@ -116,41 +116,27 @@
     /*fauna*/
     .main-fauna{
         .contenedor-uno-fauna{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            margin: 30px;
+            padding: 9px;
+            
+            
             text-align: center;
-            padding: 3px;
-            margin: 8px;
-            width: 800px;
-            height: 150px;
+            
         }
         
         
         
         .contenedor-dos-fauna{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+           
+            margin: 30px;
+            padding: 9px;
             text-align: center;
-            
-            padding: 8px;
-            margin: 8px;
-            width: 800px;
-            height: 150px;
         }
         .contenedor-tres-fauna{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
+            
+            margin: 30px;
+            padding: 9px;
             text-align: center;
-            padding: 8px;
-            margin: 8px;
-            width: 800px;
-            height: 150px;
         }
     }
 

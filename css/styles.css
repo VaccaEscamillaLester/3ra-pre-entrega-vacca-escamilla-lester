@@ -299,32 +299,14 @@
       grid-area: contenedor-dos-museo; }
   /*fauna*/
   .main-fauna .contenedor-uno-fauna {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 3px;
-    margin: 8px;
-    width: 800px;
-    height: 150px; }
+    margin: 30px;
+    padding: 9px;
+    text-align: center; }
   .main-fauna .contenedor-dos-fauna {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 8px;
-    margin: 8px;
-    width: 800px;
-    height: 150px; }
+    margin: 30px;
+    padding: 9px;
+    text-align: center; }
   .main-fauna .contenedor-tres-fauna {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 8px;
-    margin: 8px;
-    width: 800px;
-    height: 150px; } }
+    margin: 30px;
+    padding: 9px;
+    text-align: center; } }
