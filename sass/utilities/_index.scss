@@ -74,17 +74,15 @@
         }
     }
 }
-    .contenedor-logo-index {
-        @extend %flex;
-
-        .fixed-index {
-            position: fixed;
-            right: 0;
-            bottom: 0%;
-        }
-
+.contenedor-logo-index{
+    @extend %flex;
+    .fixed-index{
+        position: fixed;
+        right: 0;
+        bottom: 0%;
     }
-
-    .footer-index {
-        @include footer;
-    }
+    
+}
+.footer-index{
+    @include footer;
+}
