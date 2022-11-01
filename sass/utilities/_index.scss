@@ -1,6 +1,6 @@
 .body-index {
     background-color: $color-principal;
-    
+
 }
 
 .header-index {
@@ -13,8 +13,9 @@
         background-color: $color-menu;
 
     }
-    .h-uno-index{
-        font-family:'Permanent Marker', cursive;
+
+    .h-uno-index {
+        font-family: 'Permanent Marker', cursive;
     }
 
     nav {
@@ -35,48 +36,55 @@
 }
 .main-index{
     @extend %flex;
-    font-family: 'Questrial', sans-serif ;
-    .contenedor-uno-index{
+    font-family: 'Questrial', sans-serif;
+
+    .contenedor-uno-index {
         text-align: center;
         margin: 4px;
         padding: 4px;
     }
-    .contenedor-reservas-index{
+
+    .contenedor-reservas-index {
         text-align: center;
-        ul{
+
+        ul {
             text-align: center;
             list-style: none;
         }
     }
-    .contenedor-dos-index{
+
+    .contenedor-dos-index {
         text-align: center;
-        .img-index{
+
+        .img-index {
             padding: 3px;
             margin: 3px;
             width: 80%;
-            
         }
-        .img-dos-index{
+
+    }
+
+    .contenedor-tres-index {
+        text-align: center;
+
+        .img-dos-index {
             padding: 3px;
             margin: 3px;
             width: 80%;
-            
         }
     }
-
-
-
-
 }
-.contenedor-logo-index{
-    @extend %flex;
-    .fixed-index{
-        position: fixed;
-        right: 0;
-        bottom: 0%;
+    .contenedor-logo-index {
+        @extend %flex;
+
+        .fixed-index {
+            position: fixed;
+            right: 0;
+            bottom: 0%;
+        }
+
     }
-    
-}
-.footer-index{
-    @include footer;
-}
+
+    .footer-index {
+        @include footer;
+    }

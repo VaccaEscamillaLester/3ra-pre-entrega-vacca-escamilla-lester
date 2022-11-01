@@ -1,4 +1,4 @@
-@media screen and (min-width:600px) {
+@media screen and (min-width:769px) {
     .navbar-collapse {
         Flex-grow: 0;
         font-weight: bold;
@@ -6,7 +6,8 @@
 
     /*index*/
     .main-index {
-        padding: 1rem;
+        padding: 1px;
+        margin: 3px;
         display: grid;
         grid-template-columns: repeat(2, 2fr);
         grid-template-rows: 0.5fr 1fr 0.5 fr 0.5fr;
@@ -17,20 +18,28 @@
         justify-items: center;
 
         .contenedor-uno-index {
+            padding: 1px;
+            margin: 3px;
             grid-area: contenedor-uno-index;
         }
 
         .contenedor-dos-index {
+            padding: 1px;
+            margin: 3px;
             grid-area: contenedor-dos-index;
             width: 80%;
             filter: drop-shadow(1px 1px 3pc black);
         }
 
         .contenedor-reservas-index {
+            padding: 1px;
+            margin: 3px;
             grid-area: contenedor-reservas-index;
         }
 
         .contenedor-tres-index {
+            padding: 1px;
+            margin: 3px;
             grid-area: contenedor-tres-index;
             width: -1%;
             filter: drop-shadow(1px 1px 3pc black);
@@ -59,6 +68,175 @@
         justify-items: center;
 
         .contenedor-uno-historia {
+            padding: 1px;
+            margin: 3px;
+            grid-area: contenedor-uno-historia;
+            width: 70%;
+            height: 100px;
+
+        }
+
+        .contenedor-dos-historia {
+            padding: 1px;
+            margin: 3px;
+            grid-area: contenedor-dos-historia;
+
+        }
+
+        .contenedor-img-uno {
+            padding: 1px;
+            margin: 3px;
+            grid-area: contenedor-img-uno;
+            width: 80%;
+            filter: drop-shadow(1px 1px 3px black);
+
+        }
+
+        .contenedor-tres-historia {
+            padding: 1px;
+            margin: 3px;
+            grid-area: contenedor-tres-historia;
+        }
+
+        .contenedor-img-dos {
+            padding: 1px;
+            margin: 3px;
+            grid-area: contenedor-img-dos;
+            width: 80%;
+            filter: drop-shadow(1px 1px 3px black);
+        }
+
+
+    }
+
+    /*museo*/
+    .main-museo{
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+        grid-template-areas:
+            "contenedor-uno-museo contenedor-dos-museo"
+            ;
+        justify-content: center;
+        justify-items: center;
+
+        .contenedor-uno-museo{
+            padding: 1px;
+            margin: 3px;
+            grid-area: contenedor-uno-museo;
+            text-align: center;
+        }
+        .contenedor-dos-museo{
+            padding: 1px;
+            margin: 3px;
+            grid-area: contenedor-dos-museo;
+
+        }
+
+    }
+    
+    /*fauna*/
+    .main-fauna{
+
+        .contenedor-uno-fauna{
+            margin: 30px;
+            padding: 9px;
+            
+            
+            text-align: center;
+            
+        }
+        
+        
+        
+        .contenedor-dos-fauna{
+           
+            margin: 30px;
+            padding: 9px;
+            text-align: center;
+        }
+        .contenedor-tres-fauna{
+            
+            margin: 30px;
+            padding: 9px;
+            text-align: center;
+        }
+    }
+
+}
+
+@media (max-width: 768px) and (min-width:576px){
+    .navbar-collapse {
+        Flex-grow: 0;
+        font-weight: bold;
+    }
+
+    /*index*/
+    .main-index {
+        padding: 1px;
+        margin: 3px;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: 0.5fr 1fr 0.5 fr 0.5fr;
+        grid-template-areas:
+            "contenedor-uno-index contenedor-dos-index"
+            "contenedor-reservas-index contenedor-tres-index";
+        justify-content: center;
+        justify-items: center;
+
+        .contenedor-uno-index {
+            grid-area: contenedor-uno-index;
+            padding: 1px;
+            margin: 3px;
+        }
+
+        .contenedor-dos-index {
+            padding: 1px;
+            margin: 3px;
+            grid-area: contenedor-dos-index;
+            width: 100%;
+            filter: drop-shadow(1px 1px 3pc black);
+        }
+
+        .contenedor-reservas-index {
+            padding: 1px;
+            margin: 3px;
+            grid-area: contenedor-reservas-index;
+        }
+
+        .contenedor-tres-index {
+            padding: 1px;
+            margin: 3px;
+            grid-area: contenedor-tres-index;
+            
+            filter: drop-shadow(1px 1px 3pc black);
+
+            .img-dos-index {
+                width: 90%;
+            }
+        }
+
+
+
+    }
+
+    /*historia*/
+    .main-historia {
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+        grid-template-areas:
+            "contenedor-uno-historia contenedor-uno-historia"
+            "contenedor-dos-historia contenedor-img-uno"
+            "contenedor-tres-historia contenedor-img-dos";
+        justify-content: center;
+        justify-items: center;
+
+        .contenedor-uno-historia {
+            padding: 2px;
+            margin: 3px;
             grid-area: contenedor-uno-historia;
             width: 70%;
             height: 100px;
@@ -71,19 +249,25 @@
         }
 
         .contenedor-img-uno {
+            padding: 2px;
+            margin: 3px;
             grid-area: contenedor-img-uno;
-            width: 80%;
+            width: 100%;
             filter: drop-shadow(1px 1px 3px black);
 
         }
 
         .contenedor-tres-historia {
+            padding: 2px;
+            margin: 3px;
             grid-area: contenedor-tres-historia;
         }
 
         .contenedor-img-dos {
+            padding: 2px;
+            margin: 3px;
             grid-area: contenedor-img-dos;
-            width: 80%;
+            width: 100%;
             filter: drop-shadow(1px 1px 3px black);
         }
 
@@ -138,6 +322,6 @@
             padding: 9px;
             text-align: center;
         }
+    
     }
-
 }

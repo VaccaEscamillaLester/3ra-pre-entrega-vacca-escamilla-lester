@@ -43,7 +43,9 @@
       padding: 3px;
       margin: 3px;
       width: 80%; }
-    .main-index .contenedor-dos-index .img-dos-index {
+  .main-index .contenedor-tres-index {
+    text-align: center; }
+    .main-index .contenedor-tres-index .img-dos-index {
       padding: 3px;
       margin: 3px;
       width: 80%; }
@@ -200,8 +202,6 @@
 
 .header-fauna {
   background-color: #ffeacc;
-  margin: 3px;
-  padding: 3px;
   font-size: 20px; }
   .header-fauna .color-nav {
     background-color: #ffeacc; }
@@ -212,23 +212,23 @@
     transform: scale(0.9);
     box-shadow: 1px 1px 3px black; }
 
-.main-fauna .contenedor-uno-fauna {
-  padding: 3px;
-  margin: 3px;
-  text-align: center; }
-
-.main-fauna .contenedor-dos-fauna {
-  padding: 3px;
-  margin: 3px;
-  text-align: center; }
-
-.main-fauna .color-h {
-  color: black; }
-
-.main-fauna .contenedor-tres-fauna {
-  padding: 3px;
-  margin: 3px;
-  text-align: center; }
+.main-fauna {
+  padding: 1px;
+  margin: 1px; }
+  .main-fauna .contenedor-uno-fauna {
+    padding: 3px;
+    margin: 3px;
+    text-align: center; }
+  .main-fauna .contenedor-dos-fauna {
+    padding: 3px;
+    margin: 3px;
+    text-align: center; }
+  .main-fauna .color-h {
+    color: black; }
+  .main-fauna .contenedor-tres-fauna {
+    padding: 3px;
+    margin: 3px;
+    text-align: center; }
 
 .contenedor-logo-fauna .fixed-fauna {
   position: fixed;
@@ -239,13 +239,14 @@
   text-align: center;
   background-color: #ffeacc; }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 769px) {
   .navbar-collapse {
     Flex-grow: 0;
     font-weight: bold; }
   /*index*/
   .main-index {
-    padding: 1rem;
+    padding: 1px;
+    margin: 3px;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: 0.5fr 1fr 0.5 fr 0.5fr;
@@ -253,14 +254,22 @@
     justify-content: center;
     justify-items: center; }
     .main-index .contenedor-uno-index {
+      padding: 1px;
+      margin: 3px;
       grid-area: contenedor-uno-index; }
     .main-index .contenedor-dos-index {
+      padding: 1px;
+      margin: 3px;
       grid-area: contenedor-dos-index;
       width: 80%;
       filter: drop-shadow(1px 1px 3pc black); }
     .main-index .contenedor-reservas-index {
+      padding: 1px;
+      margin: 3px;
       grid-area: contenedor-reservas-index; }
     .main-index .contenedor-tres-index {
+      padding: 1px;
+      margin: 3px;
       grid-area: contenedor-tres-index;
       width: -1%;
       filter: drop-shadow(1px 1px 3pc black); }
@@ -276,20 +285,130 @@
     justify-content: center;
     justify-items: center; }
     .main-historia .contenedor-uno-historia {
+      padding: 1px;
+      margin: 3px;
+      grid-area: contenedor-uno-historia;
+      width: 70%;
+      height: 100px; }
+    .main-historia .contenedor-dos-historia {
+      padding: 1px;
+      margin: 3px;
+      grid-area: contenedor-dos-historia; }
+    .main-historia .contenedor-img-uno {
+      padding: 1px;
+      margin: 3px;
+      grid-area: contenedor-img-uno;
+      width: 80%;
+      filter: drop-shadow(1px 1px 3px black); }
+    .main-historia .contenedor-tres-historia {
+      padding: 1px;
+      margin: 3px;
+      grid-area: contenedor-tres-historia; }
+    .main-historia .contenedor-img-dos {
+      padding: 1px;
+      margin: 3px;
+      grid-area: contenedor-img-dos;
+      width: 80%;
+      filter: drop-shadow(1px 1px 3px black); }
+  /*museo*/
+  .main-museo {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+    grid-template-areas: "contenedor-uno-museo contenedor-dos-museo";
+    justify-content: center;
+    justify-items: center; }
+    .main-museo .contenedor-uno-museo {
+      padding: 1px;
+      margin: 3px;
+      grid-area: contenedor-uno-museo;
+      text-align: center; }
+    .main-museo .contenedor-dos-museo {
+      padding: 1px;
+      margin: 3px;
+      grid-area: contenedor-dos-museo; }
+  /*fauna*/
+  .main-fauna .contenedor-uno-fauna {
+    margin: 30px;
+    padding: 9px;
+    text-align: center; }
+  .main-fauna .contenedor-dos-fauna {
+    margin: 30px;
+    padding: 9px;
+    text-align: center; }
+  .main-fauna .contenedor-tres-fauna {
+    margin: 30px;
+    padding: 9px;
+    text-align: center; } }
+
+@media (max-width: 768px) and (min-width: 576px) {
+  .navbar-collapse {
+    Flex-grow: 0;
+    font-weight: bold; }
+  /*index*/
+  .main-index {
+    padding: 1px;
+    margin: 3px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: 0.5fr 1fr 0.5 fr 0.5fr;
+    grid-template-areas: "contenedor-uno-index contenedor-dos-index" "contenedor-reservas-index contenedor-tres-index";
+    justify-content: center;
+    justify-items: center; }
+    .main-index .contenedor-uno-index {
+      grid-area: contenedor-uno-index;
+      padding: 1px;
+      margin: 3px; }
+    .main-index .contenedor-dos-index {
+      padding: 1px;
+      margin: 3px;
+      grid-area: contenedor-dos-index;
+      width: 100%;
+      filter: drop-shadow(1px 1px 3pc black); }
+    .main-index .contenedor-reservas-index {
+      padding: 1px;
+      margin: 3px;
+      grid-area: contenedor-reservas-index; }
+    .main-index .contenedor-tres-index {
+      padding: 1px;
+      margin: 3px;
+      grid-area: contenedor-tres-index;
+      filter: drop-shadow(1px 1px 3pc black); }
+      .main-index .contenedor-tres-index .img-dos-index {
+        width: 90%; }
+  /*historia*/
+  .main-historia {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: 0.5fr 1fr 0.5fr 0.5fr;
+    grid-template-areas: "contenedor-uno-historia contenedor-uno-historia" "contenedor-dos-historia contenedor-img-uno" "contenedor-tres-historia contenedor-img-dos";
+    justify-content: center;
+    justify-items: center; }
+    .main-historia .contenedor-uno-historia {
+      padding: 2px;
+      margin: 3px;
       grid-area: contenedor-uno-historia;
       width: 70%;
       height: 100px; }
     .main-historia .contenedor-dos-historia {
       grid-area: contenedor-dos-historia; }
     .main-historia .contenedor-img-uno {
+      padding: 2px;
+      margin: 3px;
       grid-area: contenedor-img-uno;
-      width: 80%;
+      width: 100%;
       filter: drop-shadow(1px 1px 3px black); }
     .main-historia .contenedor-tres-historia {
+      padding: 2px;
+      margin: 3px;
       grid-area: contenedor-tres-historia; }
     .main-historia .contenedor-img-dos {
+      padding: 2px;
+      margin: 3px;
       grid-area: contenedor-img-dos;
-      width: 80%;
+      width: 100%;
       filter: drop-shadow(1px 1px 3px black); }
   /*museo*/
   .main-museo {

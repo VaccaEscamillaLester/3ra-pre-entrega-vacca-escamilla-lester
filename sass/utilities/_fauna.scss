@@ -3,8 +3,6 @@
 }
 .header-fauna{
     background-color: $color-headers;
-    margin: 3px;
-    padding: 3px;
     font-size: 20px;
     .color-nav{
         background-color: $color-menu;
@@ -31,7 +29,8 @@
 }
 .main-fauna{
     @extend %flex;
-
+    padding: 1px;
+    margin: 1px;
     .contenedor-uno-fauna{
         padding: 3px;
         margin: 3px;
